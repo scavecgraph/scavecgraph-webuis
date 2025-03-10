@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'symbology-icons';
+  src: url('../font/symbology-icons.eot?85899320');
+  src: url('../font/symbology-icons.eot?85899320#iefix') format('embedded-opentype'),
+       url('../font/symbology-icons.woff2?85899320') format('woff2'),
+       url('../font/symbology-icons.woff?85899320') format('woff'),
+       url('../font/symbology-icons.ttf?85899320') format('truetype'),
+       url('../font/symbology-icons.svg?85899320#symbology-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'symbology-icons';
+    src: url('../font/symbology-icons.svg?85899320#symbology-icons') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "symbology-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-symbology-work-project:before { content: '\e800'; } /* '' */
+.icon-symbology-work-projtimeline:before { content: '\e801'; } /* '' */
+.icon-symbology-work-reposave:before { content: '\e802'; } /* '' */
+.icon-symbology-work-review:before { content: '\e803'; } /* '' */
+.icon-symbology-work-status-cancelled:before { content: '\e804'; } /* '' */
+.icon-symbology-work-save:before { content: '\e805'; } /* '' */
+.icon-symbology-work-status-completed:before { content: '\e806'; } /* '' */
+.icon-symbology-work-status-infoneeded:before { content: '\e807'; } /* '' */
+.icon-symbology-work-status-inprogress:before { content: '\e808'; } /* '' */
+.icon-symbology-work-status-inreview:before { content: '\e809'; } /* '' */
+.icon-symbology-work-status-planning:before { content: '\e80a'; } /* '' */
+.icon-symbology-work-status-postpone:before { content: '\e80b'; } /* '' */
+.icon-symbology-work-status-refer:before { content: '\e80c'; } /* '' */
+.icon-symbology-work-status-warning:before { content: '\e80d'; } /* '' */
+.icon-symbology-work-task:before { content: '\e80e'; } /* '' */
+.icon-symbology-work-tasktimeline:before { content: '\e80f'; } /* '' */
+.icon-symbology-work-template-animation:before { content: '\e810'; } /* '' */
+.icon-symbology-work-template-symbol:before { content: '\e811'; } /* '' */
+.icon-symbology-work-template-symbology:before { content: '\e812'; } /* '' */
+.icon-scavecgraph-channel-intro:before { content: '\e813'; } /* '' */
+.icon-scavecgraph-letterhead:before { content: '\e814'; } /* '' */
+.icon-scavecgraph-logo-and-name:before { content: '\e815'; } /* '' */
+.icon-scavecgraph-logo-and-name-img:before { content: '\e816'; } /* '' */
+.icon-symbology-community-collaboration:before { content: '\e817'; } /* '' */
+.icon-symbology-community-community:before { content: '\e818'; } /* '' */
+.icon-symbology-community-cridentials:before { content: '\e819'; } /* '' */
+.icon-symbology-community-org:before { content: '\e81a'; } /* '' */
+.icon-symbology-community-partner:before { content: '\e81b'; } /* '' */
+.icon-symbology-community-person:before { content: '\e81c'; } /* '' */
+.icon-symbology-community-persons:before { content: '\e81d'; } /* '' */
+.icon-symbology-community-privacypolicy:before { content: '\e81e'; } /* '' */
+.icon-symbology-community-religion:before { content: '\e81f'; } /* '' */
+.icon-symbology-community-role-admin:before { content: '\e820'; } /* '' */
+.icon-symbology-community-role-cataloger:before { content: '\e821'; } /* '' */
+.icon-symbology-community-role-designer:before { content: '\e822'; } /* '' */
+.icon-symbology-community-role-developer:before { content: '\e823'; } /* '' */
+.icon-symbology-community-role-expert:before { content: '\e824'; } /* '' */
+.icon-symbology-community-role-guest:before { content: '\e825'; } /* '' */
+.icon-symbology-community-role-manager:before { content: '\e826'; } /* '' */
+.icon-symbology-community-role-public:before { content: '\e827'; } /* '' */
+.icon-symbology-community-role-user:before { content: '\e828'; } /* '' */
+.icon-symbology-community-sponsor:before { content: '\e829'; } /* '' */
+.icon-symbology-community-stakeholder:before { content: '\e82a'; } /* '' */
+.icon-symbology-community-syndicate:before { content: '\e82b'; } /* '' */
+.icon-symbology-community-synergy:before { content: '\e82c'; } /* '' */
+.icon-symbology-community-termsofservice:before { content: '\e82d'; } /* '' */
+.icon-symbology-community-user:before { content: '\e82e'; } /* '' */
+.icon-symbology-community-role-system:before { content: '\e82f'; } /* '' */
+.icon-symbology-community-users:before { content: '\e830'; } /* '' */
+.icon-symbology-concept-abstract:before { content: '\e831'; } /* '' */
+.icon-symbology-concept-article:before { content: '\e832'; } /* '' */
+.icon-symbology-concept-background:before { content: '\e833'; } /* '' */
+.icon-symbology-concept-context:before { content: '\e834'; } /* '' */
+.icon-symbology-concept-context-update:before { content: '\e835'; } /* '' */
+.icon-symbology-concept-designstrategy:before { content: '\e836'; } /* '' */
+.icon-symbology-concept-domain:before { content: '\e837'; } /* '' */
+.icon-symbology-concept-domain-semantics:before { content: '\e838'; } /* '' */
+.icon-symbology-concept-domain-vocabulary:before { content: '\e839'; } /* '' */
+.icon-symbology-concept-element-shape:before { content: '\e83a'; } /* '' */
+.icon-symbology-concept-element-symbol:before { content: '\e83b'; } /* '' */
+.icon-symbology-concept-element-symbol_update:before { content: '\e83c'; } /* '' */
+.icon-symbology-concept-element-text:before { content: '\e83d'; } /* '' */
+.icon-symbology-concept-linkelement:before { content: '\e83e'; } /* '' */
+.icon-symbology-concept-model-graphic:before { content: '\e83f'; } /* '' */
+.icon-symbology-concept-model-linguistic:before { content: '\e840'; } /* '' */
+.icon-symbology-concept-narrative:before { content: '\e841'; } /* '' */
+.icon-symbology-concept-perspective:before { content: '\e842'; } /* '' */
+.icon-symbology-concept-subject:before { content: '\e843'; } /* '' */
+.icon-symbology-concept-subject-brevity:before { content: '\e844'; } /* '' */
+.icon-symbology-concept-subject-group:before { content: '\e845'; } /* '' */
+.icon-symbology-concept-subject-identify:before { content: '\e846'; } /* '' */
+.icon-symbology-concept-subject-scope:before { content: '\e847'; } /* '' */
+.icon-symbology-concept-symbolism:before { content: '\e848'; } /* '' */
+.icon-symbology-concept-symbolism-behavior:before { content: '\e849'; } /* '' */
+.icon-symbology-concept-symbolism-imagery:before { content: '\e84a'; } /* '' */
+.icon-symbology-concept-symbolism-label:before { content: '\e84b'; } /* '' */
+.icon-symbology-concept-symbolism-sketch:before { content: '\e84c'; } /* '' */
+.icon-symbology-concept-symbology:before { content: '\e84d'; } /* '' */
+.icon-symbology-concept-visualelement:before { content: '\e84e'; } /* '' */
+.icon-symbology-graphic-blur:before { content: '\e84f'; } /* '' */
+.icon-symbology-graphic-brightness:before { content: '\e850'; } /* '' */
+.icon-symbology-graphic-burn:before { content: '\e851'; } /* '' */
+.icon-symbology-graphic-clone:before { content: '\e852'; } /* '' */
+.icon-symbology-graphic-color:before { content: '\e853'; } /* '' */
+.icon-symbology-graphic-embed:before { content: '\e854'; } /* '' */
+.icon-symbology-graphic-emboss:before { content: '\e855'; } /* '' */
+.icon-symbology-graphic-fade:before { content: '\e856'; } /* '' */
+.icon-symbology-graphic-fill:before { content: '\e857'; } /* '' */
+.icon-symbology-graphic-flip:before { content: '\e858'; } /* '' */
+.icon-symbology-graphic-font-path:before { content: '\e859'; } /* '' */
+.icon-symbology-graphic-font-shape:before { content: '\e85a'; } /* '' */
+.icon-symbology-graphic-font-style:before { content: '\e85b'; } /* '' */
+.icon-symbology-graphic-font-system:before { content: '\e85c'; } /* '' */
+.icon-symbology-graphic-glow:before { content: '\e85d'; } /* '' */
+.icon-symbology-graphic-lighting:before { content: '\e85e'; } /* '' */
+.icon-symbology-graphic-move:before { content: '\e85f'; } /* '' */
+.icon-symbology-graphic-opacity:before { content: '\e860'; } /* '' */
+.icon-symbology-graphic-outline:before { content: '\e861'; } /* '' */
+.icon-symbology-graphic-gradient:before { content: '\e862'; } /* '' */
+.icon-symbology-graphic-patterm:before { content: '\e863'; } /* '' */
+.icon-symbology-graphic-pivot:before { content: '\e864'; } /* '' */
+.icon-symbology-graphic-porting:before { content: '\e865'; } /* '' */
+.icon-symbology-graphic-position:before { content: '\e866'; } /* '' */
+.icon-symbology-graphic-preliminary:before { content: '\e867'; } /* '' */
+.icon-symbology-graphic-principal-form:before { content: '\e868'; } /* '' */
+.icon-symbology-graphic-rotate:before { content: '\e869'; } /* '' */
+.icon-symbology-graphic-scale:before { content: '\e86a'; } /* '' */
+.icon-symbology-graphic-shadow:before { content: '\e86b'; } /* '' */
+.icon-symbology-graphic-shape-archetypal:before { content: '\e86c'; } /* '' */
+.icon-symbology-graphic-shape-path:before { content: '\e86d'; } /* '' */
+.icon-symbology-graphic-size:before { content: '\e86e'; } /* '' */
+.icon-symbology-graphic-stroke:before { content: '\e86f'; } /* '' */
+.icon-symbology-graphic-symmetry:before { content: '\e870'; } /* '' */
+.icon-symbology-graphic-symmetry-linear:before { content: '\e871'; } /* '' */
+.icon-symbology-graphic-symmetry-radial:before { content: '\e872'; } /* '' */
+.icon-symbology-letterhead:before { content: '\e873'; } /* '' */
+.icon-symbology-logo-and-name:before { content: '\e874'; } /* '' */
+.icon-symbology-logo-symbol:before { content: '\e875'; } /* '' */
+.icon-symbology-method-analyze:before { content: '\e876'; } /* '' */
+.icon-symbology-method-contemplate:before { content: '\e877'; } /* '' */
+.icon-symbology-method-draft:before { content: '\e878'; } /* '' */
+.icon-symbology-method-handpuzzle:before { content: '\e879'; } /* '' */
+.icon-symbology-method-handscript:before { content: '\e87a'; } /* '' */
+.icon-symbology-method-material:before { content: '\e87b'; } /* '' */
+.icon-symbology-method-methodology:before { content: '\e87c'; } /* '' */
+.icon-symbology-method-observation:before { content: '\e87d'; } /* '' */
+.icon-symbology-method-preliminize:before { content: '\e87e'; } /* '' */
+.icon-symbology-method-rationalize:before { content: '\e87f'; } /* '' */
+.icon-symbology-method-research:before { content: '\e880'; } /* '' */
+.icon-symbology-method-visualize:before { content: '\e881'; } /* '' */
+.icon-symbology-platform-broadcast:before { content: '\e882'; } /* '' */
+.icon-symbology-platform-channel:before { content: '\e883'; } /* '' */
+.icon-symbology-platform-channel-mobile:before { content: '\e884'; } /* '' */
+.icon-symbology-platform-channel-pc:before { content: '\e885'; } /* '' */
+.icon-symbology-platform-channel-web:before { content: '\e886'; } /* '' */
+.icon-symbology-platform-integrate-executeable:before { content: '\e887'; } /* '' */
+.icon-symbology-platform-integrate-parameter:before { content: '\e888'; } /* '' */
+.icon-symbology-platform-integrate-process:before { content: '\e889'; } /* '' */
+.icon-symbology-platform-integrate-script:before { content: '\e88a'; } /* '' */
+.icon-symbology-platform-integrate-variable:before { content: '\e88b'; } /* '' */
+.icon-symbology-platform-integrate-webservice:before { content: '\e88c'; } /* '' */
+.icon-symbology-platform-integration:before { content: '\e88d'; } /* '' */
+.icon-symbology-platform-interface:before { content: '\e88e'; } /* '' */
+.icon-symbology-platform-interface-android:before { content: '\e88f'; } /* '' */
+.icon-symbology-platform-interface-api:before { content: '\e890'; } /* '' */
+.icon-symbology-platform-interface-starterkit:before { content: '\e891'; } /* '' */
+.icon-symbology-platform-interface-webview:before { content: '\e892'; } /* '' */
+.icon-symbology-platform-platform:before { content: '\e893'; } /* '' */
+.icon-symbology-platform-puzzlepiece-1:before { content: '\e894'; } /* '' */
+.icon-symbology-platform-puzzlepiece-2:before { content: '\e895'; } /* '' */
+.icon-symbology-platform-puzzlepiece-3:before { content: '\e896'; } /* '' */
+.icon-symbology-platform-registry:before { content: '\e897'; } /* '' */
+.icon-symbology-platform-registry-catalog:before { content: '\e898'; } /* '' */
+.icon-symbology-platform-registry-cataloger:before { content: '\e899'; } /* '' */
+.icon-symbology-platform-registry-channel:before { content: '\e89a'; } /* '' */
+.icon-symbology-platform-registry-repository:before { content: '\e89b'; } /* '' */
+.icon-symbology-platform-registry-station:before { content: '\e89c'; } /* '' */
+.icon-symbology-platform-registry-studio:before { content: '\e89d'; } /* '' */
+.icon-symbology-platform-security:before { content: '\e89e'; } /* '' */
+.icon-symbology-platform-security-audit:before { content: '\e89f'; } /* '' */
+.icon-symbology-platform-security-influence:before { content: '\e8a0'; } /* '' */
+.icon-symbology-platform-security-influence-exclusive:before { content: '\e8a1'; } /* '' */
+.icon-symbology-platform-security-influenceinclusive:before { content: '\e8a2'; } /* '' */
+.icon-symbology-platform-security-intrusionalert:before { content: '\e8a3'; } /* '' */
+.icon-symbology-platform-security-login:before { content: '\e8a4'; } /* '' */
+.icon-symbology-platform-security-logout:before { content: '\e8a5'; } /* '' */
+.icon-symbology-platform-security-router:before { content: '\e8a6'; } /* '' */
+.icon-symbology-platform-security-securekey:before { content: '\e8a7'; } /* '' */
+.icon-symbology-platform-security-session:before { content: '\e8a8'; } /* '' */
+.icon-symbology-platform-security-trustedstation:before { content: '\e8a9'; } /* '' */
+.icon-symbology-puzzle-bottom-left:before { content: '\e8aa'; } /* '' */
+.icon-symbology-puzzle-bottom-middle:before { content: '\e8ab'; } /* '' */
+.icon-symbology-puzzle-bottom-right:before { content: '\e8ac'; } /* '' */
+.icon-symbology-puzzle-center:before { content: '\e8ad'; } /* '' */
+.icon-symbology-puzzle-left-middle:before { content: '\e8ae'; } /* '' */
+.icon-symbology-puzzle-right-middle:before { content: '\e8af'; } /* '' */
+.icon-symbology-puzzle-top-left:before { content: '\e8b0'; } /* '' */
+.icon-symbology-puzzle-top-middle:before { content: '\e8b1'; } /* '' */
+.icon-symbology-puzzle-top-right:before { content: '\e8b2'; } /* '' */
+.icon-symbology-service-boolean-false:before { content: '\e8b3'; } /* '' */
+.icon-symbology-service-boolean-yes:before { content: '\e8b4'; } /* '' */
+.icon-symbology-service-browser-context:before { content: '\e8b5'; } /* '' */
+.icon-symbology-service-design:before { content: '\e8b6'; } /* '' */
+.icon-symbology-service-designer-article:before { content: '\e8b7'; } /* '' */
+.icon-symbology-service-designer-context:before { content: '\e8b8'; } /* '' */
+.icon-symbology-service-designer-integrate:before { content: '\e8b9'; } /* '' */
+.icon-symbology-service-designer-symbol:before { content: '\e8ba'; } /* '' */
+.icon-symbology-service-designer-symbology:before { content: '\e8bb'; } /* '' */
+.icon-symbology-service-repo-registry-symbol:before { content: '\e8bc'; } /* '' */
+.icon-symbology-service-repo-registry-symbology:before { content: '\e8bd'; } /* '' */
+.icon-symbology-service-repo-registry-text:before { content: '\e8be'; } /* '' */
+.icon-symbology-service-request:before { content: '\e8bf'; } /* '' */
+.icon-symbology-service-resources:before { content: '\e8c0'; } /* '' */
+.icon-symbology-service-resources-fonts:before { content: '\e8c1'; } /* '' */
+.icon-symbology-service-services:before { content: '\e8c2'; } /* '' */
+.icon-symbology-service-studio-slides:before { content: '\e8c3'; } /* '' */
+.icon-symbology-service-symbol-parse:before { content: '\e8c4'; } /* '' */
+.icon-symbology-service-symbol-pathed:before { content: '\e8c5'; } /* '' */
+.icon-symbology-service-symbols-approve:before { content: '\e8c6'; } /* '' */
+.icon-symbology-service-symbol-shaped:before { content: '\e8c7'; } /* '' */
+.icon-symbology-service-symbols-parsed:before { content: '\e8c8'; } /* '' */
+.icon-symbology-service-symbols-remove:before { content: '\e8c9'; } /* '' */
+.icon-symbology-service-symbols-request:before { content: '\e8ca'; } /* '' */
+.icon-symbology-service-symbols-traced:before { content: '\e8cb'; } /* '' */
+.icon-symbology-service-symbols-transfer:before { content: '\e8cc'; } /* '' */
+.icon-symbology-service-symbol-trace:before { content: '\e8cd'; } /* '' */
+.icon-symbology-service-system-admin:before { content: '\e8ce'; } /* '' */
+.icon-symbology-service-system-catalog:before { content: '\e8cf'; } /* '' */
+.icon-symbology-service-system-help:before { content: '\e8d0'; } /* '' */
+.icon-symbology-service-system-home:before { content: '\e8d1'; } /* '' */
+.icon-symbology-service-system-info:before { content: '\e8d2'; } /* '' */
+.icon-symbology-service-system-repository:before { content: '\e8d3'; } /* '' */
+.icon-symbology-service-system-syncronize:before { content: '\e8d4'; } /* '' */
+.icon-symbology-service-system-tutorial:before { content: '\e8d5'; } /* '' */
+.icon-symbology-service-system-videotutorials:before { content: '\e8d6'; } /* '' */
+.icon-symbology-service-utility:before { content: '\e8d7'; } /* '' */
+.icon-symbology-service-utility-cataloger:before { content: '\e8d8'; } /* '' */
+.icon-symbology-service-utility-studio:before { content: '\e8d9'; } /* '' */
+.icon-symbology-service-utility-theater:before { content: '\e8da'; } /* '' */
+.icon-symbology-tech-java-logo:before { content: '\e8db'; } /* '' */
+.icon-symbology-tech-jquery-logo:before { content: '\e8dc'; } /* '' */
+.icon-symbology-tech-json-logo:before { content: '\e8dd'; } /* '' */
+.icon-symbology-tech-primefaces-logo:before { content: '\e8de'; } /* '' */
+.icon-symbology-tech-restservice-logo:before { content: '\e8df'; } /* '' */
+.icon-symbology-tech-svg-logo:before { content: '\e8e0'; } /* '' */
+.icon-symbology-tech-truetypefont:before { content: '\e8e1'; } /* '' */
+.icon-symbology-work:before { content: '\e8e2'; } /* '' */
+.icon-symbology-work-archive:before { content: '\e8e3'; } /* '' */
+.icon-symbology-work-avoidance-bloat:before { content: '\e8e4'; } /* '' */
+.icon-symbology-work-avoidance-complexity:before { content: '\e8e5'; } /* '' */
+.icon-symbology-work-avoidance-duplication:before { content: '\e8e6'; } /* '' */
+.icon-symbology-work-avoidance-redundancy:before { content: '\e8e7'; } /* '' */
+.icon-symbology-work-bestpractice:before { content: '\e8e8'; } /* '' */
+.icon-symbology-workflow:before { content: '\e8e9'; } /* '' */
+.icon-symbology-workflow-article:before { content: '\e8ea'; } /* '' */
+.icon-symbology-workflow-context:before { content: '\e8eb'; } /* '' */
+.icon-symbology-workflow-graphmod:before { content: '\e8ec'; } /* '' */
+.icon-symbology-workflow-integration:before { content: '\e8ed'; } /* '' */
+.icon-symbology-workflow-lingmod:before { content: '\e8ee'; } /* '' */
+.icon-symbology-workflow-narrative:before { content: '\e8ef'; } /* '' */
+.icon-symbology-workflow-symbolism:before { content: '\e8f0'; } /* '' */
+.icon-symbology-workflow-symbology:before { content: '\e8f1'; } /* '' */
+.icon-symbology-work-intray:before { content: '\e8f2'; } /* '' */
+.icon-symbology-work-notes:before { content: '\e8f3'; } /* '' */
+.icon-symbology-service-system-publisher:before { content: '\e8f4'; } /* '' */
+.icon-symbology-platform-portal:before { content: '\e8f5'; } /* '' */

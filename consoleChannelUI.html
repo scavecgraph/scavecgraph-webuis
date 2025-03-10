@@ -1,0 +1,36 @@
+<table id="channelTbl" style="width:0px;height:0px;border:0px solid #b5d7e8;margin:0;padding:0;margin-left:auto !important;margin-right:auto !important;">
+    <tr id="trackingTd" style="background-color:#b5d7e8;">
+        <td id="searchTd" class="topLeft">
+            <table id="searchButton" class="glass" onclick="doSearch();" title="Search For A Context">
+                <tr>
+                    <td id="search" style="vertical-align: middle !important;align-items : center !important;">
+                        ?
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td id="trackerTd" style="background-color:#b5d7e8;height:70px;margin:0;padding:0;padding-left:5px;">
+            <div id="trackerDiv" class="horscroll scroller"></div>
+        </td>
+    </tr>
+    <tr>
+        <td id="rootTd" style="background-color:#b5d7e8;margin:0;padding:0;padding-left:5px;padding-right:5px;vertical-align:top;">
+            <div id="rootDiv" class="verscroll scroller"></div>
+        </td>                            
+        <td id="contentTd" style="background-color:#ffffff;margin:0;padding:0;vertical-align:0px;">
+            <iframe id="contentFrm" name="contentFrm" scrolling="no" style="width:500px;height:500px;margin:0;padding:0;border: 1px solid #b5d7e8;"></iframe>
+        </td>
+    </tr>
+</table>
+<table style="margin-left: auto;margin-right: auto;width:100%;vertical-align:middle;"><tr><td style="width:50%;"></td><td><table style="border: 0px solid #ffffff;vertical-align:middle;"><tr><td style="padding-top:4px !important;width:50%;text-align:right;"><img src="@images/svg-channel-footer-logo-and-name.png" height="20px" alt="Image Link To Scavecgraph Info" title="Scavecgraph Info" style="cursor:pointer;" onclick="window.open('https://www.scavecgraph.net/home', '_blank');" /></td><td style="padding-top:4px !important;"><img src="@images/icon-refresh.png" height="20px" alt="Image F5 Refresh" title="Reload Of Resources (Cntrl F5)" style="cursor:pointer;" onclick="location.reload();" /></td><td style="text-align:left;vertical-align:middle;"><span>&nbsp;</span><td><td class="infoCol"><label id="deviceType" class="info"></label><td><td class="infoCol"><label id="widthLbl" class="info">Width:</label></td><td class="infoCol"><label id="deviceWidth" class="info"></label><td><td class="infoCol"><label id="heightLbl" class="info">Height:</label></td><td class="infoCol"><label id="deviceHeight" class="info"></label></td></tr></table></td><td style="width:50%;"></td></tr></table>
+<img id="thumbtag" style="visibility:hidden;display:none;"/>
+<!--<table>
+<tr>
+    <td style="width:200px;">
+        <div id="leftWidth" style="width:40px;height:40px;background-color: #dddddd;"></div>
+    </td>
+    <td style="width:200px;">
+        <div id="topHeight" style="width:40px;height:40px;background-color: #dddddd;"></div>
+    </td>
+</tr>
+</table>-->

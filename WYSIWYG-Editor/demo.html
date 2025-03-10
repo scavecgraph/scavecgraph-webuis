@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cazary demo</title>
+        <link rel="stylesheet" type="text/css" href="dist/themes/flat/style.css" />
+        <style type="text/css">
+            textarea
+            {
+                width: 640px;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cazary demo</h1>
+        <textarea id="id_cazary" placeholder="normal mode">&lt;b&gt;very&lt;/b&gt; &lt;i&gt;easy&lt;/i&gt; &lt;u&gt;to&lt;/u&gt; &lt;s&gt;use&lt;/s&gt;!</textarea>
+        <textarea id="id_cazary_minimal" placeholder="minimal mode"></textarea>
+        <textarea id="id_cazary_full" placeholder="full mode"></textarea>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.min.js"></script>
+        <script type="text/javascript" src="dist/cazary.pretty.js"></script>
+        <script type="text/javascript">
+            (function ($, window) {
+                $(function ($) {
+                    // that's it!
+                    $("textarea#id_cazary").cazary();
+
+                    // customized editor
+                    $("textarea#id_cazary_minimal").cazary({
+                        commands: "MINIMAL"
+                    });
+                    $("textarea#id_cazary_full").cazary({
+                        commands: "FULL"
+                    });
+                });
+            })(jQuery, window);
+
+            function getSource(){
+                var txt = $("#id_cazary_full").val();
+                alert(txt);                
+            }            
+        </script>
+        <input type="button" value="source" onclick="getSource();"/>
+    </body>
+</html>
